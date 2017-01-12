@@ -1,11 +1,28 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.noteapp.noteapp.NoteDetailFragment"
     android:background="#FF4678"
-    >
+    android:padding="5dp">
 
+    <EditText
+        android:id="@+id/fragment_note_detail_title_text"
+        android:hint="Enter note title"
+        android:background="#FFE454"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
 
+    <EditText
+        android:id="@+id/fragment_note_detail_description_text"
+        android:hint="Enter note description"
+        android:gravity="top"
+        android:background="#FF5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_note_detail_title_text"
+        android:layout_marginTop="10dp"/>
+        
 
-</FrameLayout>
+</RelativeLayout>
