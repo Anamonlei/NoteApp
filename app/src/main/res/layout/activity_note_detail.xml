@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.noteapp.noteapp.NoteDetailActivity">
-
+h
     <fragment
         android:name="com.noteapp.noteapp.NoteDetailFragment"
         android:layout_width="match_parent"
